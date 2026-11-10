@@ -1,5 +1,7 @@
 # Rapidgator Click
 
+For contributors and AI coding agents: see [AGENTS.md](AGENTS.md) and the [development, testing, and release guide](docs/DEVELOPMENT.md).
+
 A small Chrome Manifest V3 extension for the flow in your screenshots:
 
 1. Start a free download yourself.
