@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Rapidgator Click",
+  "version": "1.0.3",
+  "description": "Waits for Rapidgator's countdown and CAPTCHA completion, then clicks Send and the download button.",
+  "permissions": ["storage"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    },
+    "default_title": "Rapidgator Click",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [{
+    "matches": ["https://rapidgator.net/*", "https://www.rapidgator.net/*"],
+    "js": ["flow.js", "content.js"],
+    "run_at": "document_idle"
+  }]
+}

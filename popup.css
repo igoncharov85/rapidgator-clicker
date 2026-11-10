@@ -1,0 +1,7 @@
+:root { font: 14px/1.5 system-ui, sans-serif; color: #20242a; background: #fff; }
+body { width: 300px; margin: 0; padding: 20px; }
+h1 { display: flex; align-items: center; gap: 10px; margin: 0 0 16px; font-size: 19px; }
+label { display: flex; align-items: center; gap: 8px; font-weight: 600; cursor: pointer; }
+input { accent-color: #d96400; width: 17px; height: 17px; }
+#status { padding: 12px; background: #fff2df; border-radius: 8px; }
+.hint { color: #59616c; font-size: 12px; margin-bottom: 0; }

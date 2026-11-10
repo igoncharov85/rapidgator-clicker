@@ -1,0 +1,6 @@
+{
+  "name": "rapidgator-click",
+  "version": "1.0.3",
+  "private": true,
+  "scripts": { "test": "node --test tests/*.test.js" }
+}
